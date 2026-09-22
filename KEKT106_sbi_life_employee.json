@@ -1,0 +1,1476 @@
+{
+  "meta": {
+    "title": "KEKT106 - SBI Life Employee Brand Experience",
+    "job": "KEKT106",
+    "client": "SBI Life Insurance",
+    "note": "Reference frame. Copy and edit for a new study."
+  },
+  "frames": {
+    "Q11": [
+      {
+        "net": "Brand & Reputation",
+        "code": 101,
+        "label": "Strong brand name / brand value / brand image / brand equity",
+        "patterns": [
+          "\\bbrand",
+          "\\bbranc?d",
+          "\\bbarnd",
+          "goodwill",
+          "compan(y|ies)'?s? name",
+          "\\bbranch (name|image|value|reputation)",
+          "^sbi ?life[\\s\\.]*$"
+        ]
+      },
+      {
+        "net": "Brand & Reputation",
+        "code": 102,
+        "label": "SBI parentage / association with State Bank of India / SBI legacy",
+        "patterns": [
+          "state bank",
+          "parent (organi|brand|compan)",
+          "sbi brand",
+          "brand sbi",
+          "legacy of sbi",
+          "associated with sbi",
+          "association with sbi",
+          "sbi bank",
+          "sbi group",
+          "sister concern",
+          "sbi staff",
+          "sbi ecosystem",
+          "sbi life brand",
+          "\\bsbi\\b.*\\blegacy",
+          "nationalised bank",
+          "backed by sbi",
+          "sbi'?s stru",
+          "prior experience with sbi",
+          "sbi branch"
+        ]
+      },
+      {
+        "net": "Brand & Reputation",
+        "code": 103,
+        "label": "Trusted / credible / reliable organisation",
+        "patterns": [
+          "trust",
+          "credib",
+          "reliab",
+          "\\bfaith\\b",
+          "dependab",
+          "belife"
+        ]
+      },
+      {
+        "net": "Brand & Reputation",
+        "code": 104,
+        "label": "Market leader / No.1 / top private life insurer / large company",
+        "patterns": [
+          "no\\.?\\s*1\\b",
+          "\\bno 1\\b",
+          "number one",
+          "market leader",
+          "leading",
+          "largest",
+          "biggest",
+          "top (pvt|private|company|rated|in|life|class|insurer)",
+          "top pvt",
+          "market position",
+          "leadership",
+          "2nd largest",
+          "one of the top",
+          "top most",
+          "topmost",
+          "market dominance",
+          "huge organi",
+          "top company",
+          "top ranked",
+          "top employee"
+        ]
+      },
+      {
+        "net": "Brand & Reputation",
+        "code": 105,
+        "label": "Reputed / well-known / respected company",
+        "patterns": [
+          "reput",
+          "renowned",
+          "well.?known",
+          "famous",
+          "stature",
+          "prestig",
+          "respect(ed|able)",
+          "recognized by many",
+          "market value",
+          "image in the market",
+          "well.?established",
+          "well established"
+        ]
+      },
+      {
+        "net": "Brand & Reputation",
+        "code": 106,
+        "label": "Financial strength / stability / performance / claim settlement",
+        "patterns": [
+          "financial(ly)? (strong|stab|secur|sound|solid)",
+          "claim settlement",
+          "\\baum\\b",
+          "company performance",
+          "company'?s performance",
+          "sustainab",
+          "zero dep?t",
+          "solid financial",
+          "financial security",
+          "financially dependable"
+        ]
+      },
+      {
+        "net": "Career & Growth",
+        "code": 201,
+        "label": "Career growth / progression / promotion opportunities",
+        "patterns": [
+          "career growth",
+          "carrier growth",
+          "carrer growth",
+          "career opportunit",
+          "growth opportunit",
+          "opportunit(y|ies) (for|to) (career|grow|professional)",
+          "growth path",
+          "growth of the company",
+          "promotion path",
+          "career progress",
+          "career development",
+          "professional growth",
+          "career (goal|consider|pivot)",
+          "grow (well|professionally|in company|in my career)",
+          "scope for.*growth",
+          "better carrier",
+          "better career",
+          "best carrier",
+          "good carrier",
+          "good career",
+          "career path",
+          "clear growth",
+          "growth prospect",
+          "career and",
+          "for growth",
+          "future growth",
+          "business growth",
+          "long term prospect",
+          "^growth",
+          "to grow",
+          "achieve goals",
+          "achieve new benchmark",
+          "company growing and",
+          "excellent growth",
+          "professional life",
+          "growth of me",
+          "i will grow"
+        ]
+      },
+      {
+        "net": "Career & Growth",
+        "code": 202,
+        "label": "Learning / skill development / new exposure & knowledge",
+        "patterns": [
+          "\\blearn",
+          "upskill",
+          "\\bskill",
+          "knowledge",
+          "exposure",
+          "new technolog",
+          "new project",
+          "new challeng",
+          "develop my",
+          "innovation",
+          "leaned something new",
+          "interest(ing|ed) in (life )?insurance"
+        ]
+      },
+      {
+        "net": "Career & Growth",
+        "code": 203,
+        "label": "Long-term career / long-term association / retirement prospect",
+        "patterns": [
+          "long.?term",
+          "long term",
+          "retire",
+          "\\blong run\\b",
+          "till death",
+          "sustanable job",
+          "sustainable job"
+        ]
+      },
+      {
+        "net": "Career & Growth",
+        "code": 204,
+        "label": "Financial growth / salary / compensation / incentives",
+        "patterns": [
+          "salary",
+          "package",
+          "compensation",
+          "incentive",
+          "monetary",
+          "financial growth",
+          "earning",
+          "\\bperks\\b",
+          "\\bpay\\b",
+          "income",
+          "money earning"
+        ]
+      },
+      {
+        "net": "Career & Growth",
+        "code": 205,
+        "label": "Personal development / self-growth",
+        "patterns": [
+          "personal (growth|development)",
+          "self.?growth",
+          "self development",
+          "personnel (as well|growth)",
+          "personal, financial",
+          "individual growth"
+        ]
+      },
+      {
+        "net": "Job Security & Stability",
+        "code": 301,
+        "label": "Job security / job stability / safe & secure job",
+        "patterns": [
+          "job security",
+          "job stability",
+          "secure job",
+          "job satisfaction",
+          "stable career",
+          "stable job",
+          "long term stability",
+          "stability",
+          "safety for job",
+          "sustanable job",
+          "sustainable job",
+          "safe and secured job",
+          "stable and trusted",
+          "stable work"
+        ]
+      },
+      {
+        "net": "Work Culture & Environment",
+        "code": 401,
+        "label": "Good work culture / values / ethics / transparency",
+        "patterns": [
+          "work culture",
+          "working culture",
+          "\\bculture",
+          "\\bvalues\\b",
+          "ethic",
+          "transparen"
+        ]
+      },
+      {
+        "net": "Work Culture & Environment",
+        "code": 402,
+        "label": "Positive work environment / supportive people & teamwork",
+        "patterns": [
+          "work(ing)? environment",
+          "work enviro",
+          "enviro?nment",
+          "workplace",
+          "healthy environment",
+          "positive work",
+          "supportive",
+          "working place",
+          "best place",
+          "good place",
+          "working environment",
+          "team"
+        ]
+      },
+      {
+        "net": "Work Culture & Environment",
+        "code": 403,
+        "label": "Work-life balance / leave policy",
+        "patterns": [
+          "work.?life balance",
+          "work life",
+          "leave policy",
+          "work balance",
+          "work life balance"
+        ]
+      },
+      {
+        "net": "Work Culture & Environment",
+        "code": 404,
+        "label": "Employee-centric / employee-friendly policies / company cares",
+        "patterns": [
+          "employee (oriented|centric|friendly|caring|benefit|development|empower|engagement|cent)",
+          "employee.?centric",
+          "employee.?friendly",
+          "caring nature",
+          "hr polic",
+          "employee friendly",
+          "supports my career",
+          "value of human being",
+          "company takes care"
+        ]
+      },
+      {
+        "net": "Compensation & Benefits",
+        "code": 501,
+        "label": "Medical / mediclaim / term insurance & other employee benefits",
+        "patterns": [
+          "mediclaim",
+          "medical benefit",
+          "medical",
+          "health insurance",
+          "term insurance",
+          "fuel claim",
+          "reimbursement",
+          "employee benefit"
+        ]
+      },
+      {
+        "net": "Compensation & Benefits",
+        "code": 502,
+        "label": "Rewards & recognition",
+        "patterns": [
+          "reward",
+          "recognition",
+          "recogniz",
+          "recogniti"
+        ]
+      },
+      {
+        "net": "Industry / Role",
+        "code": 601,
+        "label": "Insurance is a growing / attractive industry; interest in the sector",
+        "patterns": [
+          "insurance (industry|sector|domain|field)",
+          "sunrise industry",
+          "life insurance industry",
+          "growing industry",
+          "interest in life insurance",
+          "insurance and financial services",
+          "financial services",
+          "service industry"
+        ]
+      },
+      {
+        "net": "Industry / Role",
+        "code": 602,
+        "label": "Job profile / role / department matched my interest",
+        "patterns": [
+          "job profile",
+          "work profile",
+          "\\brole\\b",
+          "designation",
+          "\\bprofile",
+          "department",
+          "data analytic",
+          "cybersecurity",
+          "post of dm",
+          "job profiles"
+        ]
+      },
+      {
+        "net": "Industry / Role",
+        "code": 603,
+        "label": "Customer-centric approach / opportunity to serve & secure customers",
+        "patterns": [
+          "customer (centric|focus|first|trust|base|servic)",
+          "coustomer",
+          "custumer",
+          "serve the customer",
+          "help(ing)? customers",
+          "securing families",
+          "secure their financial",
+          "financial protection",
+          "noble cause",
+          "serving lakhs",
+          "supports customers",
+          "service to the customer"
+        ]
+      },
+      {
+        "net": "Industry / Role",
+        "code": 604,
+        "label": "Product portfolio / good products & returns",
+        "patterns": [
+          "\\bproduct",
+          "ulip",
+          "better product",
+          "returns"
+        ]
+      },
+      {
+        "net": "Recruitment / Personal",
+        "code": 701,
+        "label": "Campus placement / recruitment / selection process",
+        "patterns": [
+          "campus",
+          "placement",
+          "written exam",
+          "interview",
+          "recruit",
+          "college",
+          "selected"
+        ]
+      },
+      {
+        "net": "Recruitment / Personal",
+        "code": 702,
+        "label": "Referral / recommendation by friend, colleague or family",
+        "patterns": [
+          "friend",
+          "refer",
+          "colleague",
+          "collegue",
+          "advised",
+          "recommend",
+          "\\bfather\\b",
+          "family member",
+          "office colleague"
+        ]
+      },
+      {
+        "net": "Recruitment / Personal",
+        "code": 703,
+        "label": "Influenced by a specific senior / manager",
+        "patterns": [
+          "my sir",
+          "\\bmy sir\\b",
+          "area manager",
+          "immediate manager",
+          "approach done by",
+          "kushal sir",
+          "mohit khanna"
+        ]
+      },
+      {
+        "net": "Recruitment / Personal",
+        "code": 704,
+        "label": "Location / proximity to hometown or home",
+        "patterns": [
+          "hometown",
+          "home location",
+          "my home",
+          "navi mumbai",
+          "chandigarh from pune",
+          "office location"
+        ]
+      },
+      {
+        "net": "Recruitment / Personal",
+        "code": 705,
+        "label": "Needed a job / first job / livelihood",
+        "patterns": [
+          "need(ed)? a job",
+          "first job",
+          "livelihood",
+          "searching for a job",
+          "to sustain",
+          "need a job",
+          "i need a job"
+        ]
+      },
+      {
+        "net": "Pride & Emotional Connect",
+        "code": 801,
+        "label": "Pride / dream company / emotional attachment",
+        "patterns": [
+          "proud",
+          "\\bdream\\b",
+          "grateful",
+          "happy to (work|be)",
+          "\\bglad\\b",
+          "honou?r",
+          "feel good to work",
+          "my temple",
+          "fortunate",
+          "love",
+          "best decision",
+          "awesome company",
+          "amazing company",
+          "great company"
+        ]
+      },
+      {
+        "net": "Negative Mentions",
+        "code": 901,
+        "label": "Negative - promotion / career growth stagnation, lack of recognition",
+        "patterns": [
+          "promotion pending",
+          "no promotion",
+          "still i am assistant",
+          "didn'?t get any shield",
+          "no clarity on process",
+          "elevation",
+          "last designation",
+          "no career guidance",
+          "better career guidance",
+          "kindly provide some recogn"
+        ]
+      },
+      {
+        "net": "Negative Mentions",
+        "code": 902,
+        "label": "Negative - work pressure / targets / long hours / poor work-life balance",
+        "patterns": [
+          "work ?load",
+          "pressure",
+          "\\btarget",
+          "timings are bad",
+          "extending",
+          "harass",
+          "late night",
+          "no work life balance",
+          "no leave",
+          "office time",
+          "more time to family",
+          "lengthy process",
+          "high working time",
+          "work pressure"
+        ]
+      },
+      {
+        "net": "Negative Mentions",
+        "code": 903,
+        "label": "Negative - senior / supervisor behaviour, politics, favouritism",
+        "patterns": [
+          "politics",
+          "\\bigo\\b",
+          "\\bego\\b",
+          "slave",
+          "favoritism",
+          "favouritism",
+          "torcher",
+          "torture",
+          "mental",
+          "boss are",
+          "managers igo",
+          "senior cannot support",
+          "no support&help",
+          "seniors and theier mind"
+        ]
+      },
+      {
+        "net": "Negative Mentions",
+        "code": 904,
+        "label": "Negative - HR support / policies inadequate",
+        "patterns": [
+          "hr dept",
+          "hr never",
+          "hr is very poor",
+          "hr side",
+          "hr dept is very poor",
+          "no one-on-one",
+          "hr of all those"
+        ]
+      },
+      {
+        "net": "Negative Mentions",
+        "code": 905,
+        "label": "Negative - IT systems / infrastructure / process issues",
+        "patterns": [
+          "it portal",
+          "infrastructure",
+          "crm application",
+          "uw link",
+          "mobile employee",
+          "stuck in excel",
+          "it support"
+        ]
+      },
+      {
+        "net": "Negative Mentions",
+        "code": 906,
+        "label": "Negative - salary / pay disparity",
+        "patterns": [
+          "low.?salary",
+          "salary structure",
+          "paid peanuts",
+          "disparity",
+          "low salary"
+        ]
+      },
+      {
+        "net": "Negative Mentions",
+        "code": 907,
+        "label": "Negative - overall bad / toxic experience with the company",
+        "patterns": [
+          "bad experience",
+          "\\bworst\\b",
+          "toxic",
+          "very bad",
+          "slow poison",
+          "vest of life",
+          "not good sign",
+          "unfit for driving",
+          "average channel"
+        ]
+      }
+    ],
+    "Q12": [
+      {
+        "net": "Trust & Reliability",
+        "code": 101,
+        "label": "Trustworthy / trusted brand",
+        "patterns": [
+          "trust",
+          "\\btrus\\b",
+          "trustw",
+          "trustab",
+          "\\bfaith\\b"
+        ]
+      },
+      {
+        "net": "Trust & Reliability",
+        "code": 102,
+        "label": "Reliable / dependable / stable brand",
+        "patterns": [
+          "reliab",
+          "relieab",
+          "realiab",
+          "dependab",
+          "\\bstable\\b",
+          "\\bsecure\\b",
+          "\\bsafe\\b",
+          "secured",
+          "assuring",
+          "well determined"
+        ]
+      },
+      {
+        "net": "Trust & Reliability",
+        "code": 103,
+        "label": "Backed by SBI legacy / parentage gives credibility",
+        "patterns": [
+          "state bank",
+          "legacy of sbi",
+          "backed by sbi",
+          "sbi'?s (strong )?(credibility|legacy)",
+          "association with sbi",
+          "associated with sbi",
+          "parent",
+          "sbi name",
+          "because of the sbi",
+          "due to the sbi",
+          "sbi bank",
+          "backing of a trusted nationalised",
+          "nationalised bank",
+          "strong association with sbi",
+          "legacy of ssbi",
+          "banking network",
+          "banking spread",
+          "sbi parentage",
+          "backed by strong credibility",
+          "strong backing by the state bank",
+          "sbi'?s parentage",
+          "sbi bank\\b",
+          "trust of people in the bank"
+        ]
+      },
+      {
+        "net": "Trust & Reliability",
+        "code": 104,
+        "label": "Credible / ethical / transparent practices",
+        "patterns": [
+          "credib",
+          "ethic",
+          "transparen",
+          "integrity",
+          "honest"
+        ]
+      },
+      {
+        "net": "Market Standing",
+        "code": 201,
+        "label": "Market leader / No.1 / top private life insurer",
+        "patterns": [
+          "no\\.?\\s*1",
+          "\\bno 1\\b",
+          "number 1",
+          "market leader",
+          "leading",
+          "largest",
+          "top (brand|tier|ranked|class|most|list|employee)",
+          "topmost",
+          "top most",
+          "dominant",
+          "market dominance",
+          "best in the (market|industry|insurance)",
+          "best brand",
+          "one of the best",
+          "highest brand",
+          "1st\\b",
+          "premium brand",
+          "finest in industry",
+          "best and top brand",
+          "best customer service brand",
+          "leader in private",
+          "appealable brand",
+          "the best\\)",
+          "worlds best"
+        ]
+      },
+      {
+        "net": "Market Standing",
+        "code": 202,
+        "label": "Strong / powerful / big brand",
+        "patterns": [
+          "\\bstrong",
+          "\\bstronge\\b",
+          "powerful",
+          "\\bbig brand",
+          "huge brand",
+          "titan",
+          "mammoth",
+          "very strong",
+          "hugh and mammoth",
+          "\\bstrength"
+        ]
+      },
+      {
+        "net": "Market Standing",
+        "code": 203,
+        "label": "Well-known / wide reach / high visibility & distribution",
+        "patterns": [
+          "well.?known",
+          "well knowned",
+          "widespread",
+          "wide (reach|distribution)",
+          "reach",
+          "visib",
+          "accessib",
+          "recognized",
+          "recognised",
+          "most people knows",
+          "easily recognized",
+          "presence",
+          "presense",
+          "all over india",
+          "distribution network",
+          "mass.?market"
+        ]
+      },
+      {
+        "net": "Market Standing",
+        "code": 204,
+        "label": "Reputed / respected / high brand value",
+        "patterns": [
+          "reput",
+          "renowned",
+          "respected",
+          "brand value",
+          "valuable",
+          "highly valued",
+          "most valued",
+          "prestig",
+          "goodwill",
+          "famous",
+          "brand image",
+          "brand equity",
+          "good market value",
+          "highly valuable",
+          "picture in the market"
+        ]
+      },
+      {
+        "net": "Market Standing",
+        "code": 205,
+        "label": "Financially strong / claim settlement / AUM",
+        "patterns": [
+          "financial(ly)? (strong|solid|stab|depend|credib|secure)",
+          "claim settlement",
+          "\\baum\\b",
+          "zero dep?t",
+          "financially secure",
+          "financial credibility",
+          "financial brand",
+          "financial strength"
+        ]
+      },
+      {
+        "net": "Market Standing",
+        "code": 206,
+        "label": "Long-standing legacy / well-established / long-term player",
+        "patterns": [
+          "legacy",
+          "long.?stand",
+          "well.?established",
+          "well established",
+          "established brand",
+          "long term player",
+          "track record",
+          "200 years",
+          "long standing"
+        ]
+      },
+      {
+        "net": "Customer Orientation",
+        "code": 301,
+        "label": "Customer-centric / customer-first brand",
+        "patterns": [
+          "customer.?(centric|focus|first|orient)",
+          "coustomer",
+          "customer‑centric",
+          "customer centric",
+          "consumer empathetic",
+          "people first",
+          "you first"
+        ]
+      },
+      {
+        "net": "Customer Orientation",
+        "code": 302,
+        "label": "Good service quality / support",
+        "patterns": [
+          "servic",
+          "support"
+        ]
+      },
+      {
+        "net": "Customer Orientation",
+        "code": 303,
+        "label": "Provides financial security / protection / good products",
+        "patterns": [
+          "financial (protection|security|wellbeing|stability)",
+          "protection",
+          "secure the future",
+          "safe and secure investment",
+          "insurance solution",
+          "\\bproduct",
+          "protect",
+          "pension|savings"
+        ]
+      },
+      {
+        "net": "Brand Personality & Positioning",
+        "code": 401,
+        "label": "Modern / young / dynamic / innovative / digitally growing",
+        "patterns": [
+          "\\bmodern",
+          "\\byoung",
+          "dynamic",
+          "innovat",
+          "digitally",
+          "progressive",
+          "forward.?think",
+          "fresh",
+          "contemporary",
+          "evolv",
+          "emerging"
+        ]
+      },
+      {
+        "net": "Brand Personality & Positioning",
+        "code": 402,
+        "label": "Emotionally relatable / mass & middle-class connect / purpose-driven",
+        "patterns": [
+          "emotion",
+          "relatab",
+          "middle.?class",
+          "purpose driven",
+          "purpose.?driven",
+          "mainstream",
+          "mass.?market relevance",
+          "valuable bond",
+          "empathy",
+          "connection with customers",
+          "connect with",
+          "long-term relation",
+          "long term relationship"
+        ]
+      },
+      {
+        "net": "Brand Personality & Positioning",
+        "code": 403,
+        "label": "New brand line / identity - 'Apne Liye, Apno Ke Liye'",
+        "patterns": [
+          "apne liye",
+          "apno ke liye",
+          "brand line",
+          "brand philosophy",
+          "brand identity",
+          "refreshed its brand",
+          "new brand",
+          "tagline",
+          "jolly",
+          "polly"
+        ]
+      },
+      {
+        "net": "Brand Personality & Positioning",
+        "code": 404,
+        "label": "Professionally managed / well-structured organisation",
+        "patterns": [
+          "professional",
+          "well.?managed",
+          "structured",
+          "performance.?driven",
+          "operational (efficiency|strength)"
+        ]
+      },
+      {
+        "net": "Employer Brand",
+        "code": 501,
+        "label": "Good place to work / employee friendly",
+        "patterns": [
+          "employee.?(friendly|oriented|centric)",
+          "good (place|company) to work",
+          "better place to work",
+          "best place for working",
+          "great brand to work",
+          "proud to work",
+          "good luck",
+          "allow employees to work",
+          "work culture",
+          "working environment",
+          "employee engagement",
+          "work balance",
+          "decent brand to work",
+          "reason to work with",
+          "place to work"
+        ]
+      },
+      {
+        "net": "Employer Brand",
+        "code": 502,
+        "label": "Career growth & learning opportunities for employees",
+        "patterns": [
+          "career growth",
+          "growth and development",
+          "opportunities for growth",
+          "career opportunit",
+          "roadmap for employees",
+          "employees can learn",
+          "grow and build",
+          "career oriented",
+          "growth opportunit",
+          "promotion",
+          "increment",
+          "good career"
+        ]
+      },
+      {
+        "net": "Employer Brand",
+        "code": 503,
+        "label": "Proud / happy to be associated with the brand",
+        "patterns": [
+          "proud",
+          "\\bhappy\\b",
+          "\\bglad\\b",
+          "love to",
+          "feel good"
+        ]
+      },
+      {
+        "net": "Business Enabler",
+        "code": 601,
+        "label": "Strong brand makes selling / customer connect easier",
+        "patterns": [
+          "easy to have an appointment",
+          "easy to convey",
+          "reached our brand",
+          "make advantages for us",
+          "attracts customer",
+          "helps? (us|me) to",
+          "easier"
+        ]
+      },
+      {
+        "net": "Areas of Improvement / Negatives",
+        "code": 701,
+        "label": "Rides only on SBI's name - limited brand of its own",
+        "patterns": [
+          "no brand even today",
+          "it is sbi brand that works",
+          "steam of its parent",
+          "simply because of the sbi name",
+          "only due to the sbi",
+          "no need to perceive"
+        ]
+      },
+      {
+        "net": "Areas of Improvement / Negatives",
+        "code": 702,
+        "label": "Needs to attract new-age / younger customers",
+        "patterns": [
+          "new age customers",
+          "new generation",
+          "targeting new gener",
+          "attract new"
+        ]
+      },
+      {
+        "net": "Areas of Improvement / Negatives",
+        "code": 703,
+        "label": "Low awareness / potential not fully realised / marketing needs push",
+        "patterns": [
+          "lack of awareness",
+          "not yet explored",
+          "long way to go",
+          "less aggressive",
+          "should have been more established",
+          "can do better",
+          "scope to further",
+          "needs? more",
+          "brand canvasing",
+          "should be improved",
+          "potential if correct decisions"
+        ]
+      },
+      {
+        "net": "Areas of Improvement / Negatives",
+        "code": 704,
+        "label": "Mis-selling / wrong information creating negative image",
+        "patterns": [
+          "mis ?- ?sell",
+          "miss sell",
+          "mis lead",
+          "misleading",
+          "wrong information",
+          "sold without proper",
+          "bad opinion"
+        ]
+      },
+      {
+        "net": "Areas of Improvement / Negatives",
+        "code": 705,
+        "label": "Perceived as slow / conventional / PSU-like",
+        "patterns": [
+          "\\bslow\\b",
+          "psu",
+          "government agency",
+          "conventional"
+        ]
+      },
+      {
+        "net": "Areas of Improvement / Negatives",
+        "code": 706,
+        "label": "Internal issues - management, work pressure, work-life balance",
+        "patterns": [
+          "middle management is not support",
+          "management not care",
+          "dicatating",
+          "dictating",
+          "work life balance",
+          "target pressure",
+          "work load",
+          "slave",
+          "torcher",
+          "no respect",
+          "expectations from seniors",
+          "respect the team",
+          "ground level employees are not"
+        ]
+      }
+    ],
+    "Q13": [
+      {
+        "net": "Positive - Emotional Response",
+        "code": 101,
+        "label": "Feel proud / sense of pride",
+        "patterns": [
+          "proud",
+          "proude",
+          "prode",
+          "pleasure",
+          "honou?r"
+        ]
+      },
+      {
+        "net": "Positive - Emotional Response",
+        "code": 102,
+        "label": "Feel happy / excited / positive about it",
+        "patterns": [
+          "\\bhappy",
+          "excit",
+          "\\bpositive",
+          "feels? (very |really |so |extremely )?(good|great|nice)",
+          "feel(ing)? (very |so |extremely )?(good|great|happy)",
+          "good to see",
+          "nice to see",
+          "energ",
+          "\\bthrill",
+          "i like it",
+          "\\bliked\\b",
+          "\\blove\\b",
+          "feel very good",
+          "felt good"
+        ]
+      },
+      {
+        "net": "Positive - Emotional Response",
+        "code": 103,
+        "label": "Feel more connected / engaged with the brand",
+        "patterns": [
+          "connect(ed)? (to|with) the brand",
+          "more connected",
+          "feel connected",
+          "more engaged",
+          "emotional connect",
+          "sense of pride"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 201,
+        "label": "Increases brand visibility / reach / awareness",
+        "patterns": [
+          "visib",
+          "\\breach",
+          "awareness",
+          "brand recall",
+          "more people",
+          "wider audience",
+          "grass root",
+          "limelight",
+          "in line with the current trend",
+          "exposure",
+          "logo reflects",
+          "see our company name",
+          "company logo",
+          "our logo",
+          "motives poor peoples"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 202,
+        "label": "Strengthens trust / credibility / brand image",
+        "patterns": [
+          "trust",
+          "credib",
+          "brand image",
+          "brand value",
+          "strengthen",
+          "reliab",
+          "confidence",
+          "brand appeal",
+          "enhances the brand",
+          "boosts",
+          "acceptance"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 203,
+        "label": "Makes brand more relatable / youthful / modern / energetic",
+        "patterns": [
+          "relatab",
+          "youthful",
+          "\\byoung",
+          "\\bmodern",
+          "dynamic",
+          "vibrant",
+          "fresh",
+          "contemporary",
+          "approachable",
+          "everyday"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 204,
+        "label": "Helps connect with a wider / younger audience",
+        "patterns": [
+          "wider (audience|and younger)",
+          "larger audience",
+          "wide audience",
+          "younger generation",
+          "all the age groups",
+          "across india",
+          "every indian",
+          "indian households?",
+          "more audience",
+          "connect with a",
+          "wide and diverse"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 205,
+        "label": "Good marketing strategy / smart & right move",
+        "patterns": [
+          "smart",
+          "good (move|option|idea|initiative|step|colab|decision)",
+          "great (move|idea|initiative|collab|colab)",
+          "positive (move|step|association|impact|impression)",
+          "right decision",
+          "excellent campaign",
+          "marketing skill",
+          "great initiative",
+          "best intiative",
+          "good initiative",
+          "wonderful",
+          "correctly observes",
+          "strategic association",
+          "excellent idea",
+          "nice step",
+          "very good idea",
+          "good one idea",
+          "absolutely correctly",
+          "great colab",
+          "great collaboration",
+          "perfect"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 206,
+        "label": "Cricket has huge appeal / is an emotion in India",
+        "patterns": [
+          "cricket is (widely )?(loved|an emotion|a religion|the heartbeat|very popular|most loved|strong|considered)",
+          "cricket (has|commands|connects|unites|is)",
+          "religion in india",
+          "heartbeat",
+          "first choice",
+          "cricket lover",
+          "love cricket",
+          "favorite sports",
+          "passion of millions",
+          "universal appeal",
+          "most loved game",
+          "widely loved"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 207,
+        "label": "Helps business / sales / easier customer connect",
+        "patterns": [
+          "drive sales",
+          "benefits to all for improving our business",
+          "help(s|ing)? (us|sbi life) connect",
+          "reach to the people",
+          "more stretches",
+          "customer acquisition",
+          "good for company and ph",
+          "attract some customers",
+          "easier"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 208,
+        "label": "Likes the Jolly & Polly campaign / its message",
+        "patterns": [
+          "jolly",
+          "polly",
+          "balanc(e|ing) (passion|ambition|their)",
+          "aspiration",
+          "follow (our|their) dreams",
+          "pursue (your|their|our) dreams",
+          "responsib"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 209,
+        "label": "Ambassadors are apt - Pant / Jadeja are good role models",
+        "patterns": [
+          "pant",
+          "jadeja",
+          "jadega",
+          "panth",
+          "role model",
+          "both youthful",
+          "ambassadors are good",
+          "good humane",
+          "resilience",
+          "discipline"
+        ]
+      },
+      {
+        "net": "Positive - Brand Impact",
+        "code": 210,
+        "label": "Shift from fear-based to aspiration / empowerment messaging",
+        "patterns": [
+          "fear to empower",
+          "fear bases",
+          "fear.?based",
+          "shifting the narrative",
+          "from fear",
+          "empowerment",
+          "reframes",
+          "narrative"
+        ]
+      },
+      {
+        "net": "Awareness Only",
+        "code": 301,
+        "label": "Aware of the association / names the ambassadors - no opinion expressed",
+        "patterns": [
+          "^yes[\\s\\.,!]*$",
+          "^y$",
+          "yes,? i am aware",
+          "i am aware",
+          "yes i know",
+          "aware about",
+          "yes aware",
+          "^ipl$",
+          "^tv advertisement$",
+          "brand ambassadors? (of|for) sbi life",
+          "^rishabh? pant",
+          "^jolly and polly$",
+          "^rishab pant$",
+          "^sbi life has",
+          "sponsered|sponsored"
+        ]
+      },
+      {
+        "net": "Negative / Critical",
+        "code": 401,
+        "label": "Choice of ambassadors could be better / not appropriate",
+        "patterns": [
+          "could (have )?(be(en)? )?better",
+          "ambassador could be better",
+          "better (player|option|cricketer)",
+          "emerging stars",
+          "better and younger",
+          "not much performing",
+          "they both are failures",
+          "do not match the aura",
+          "not relevant",
+          "could have been more appropriate",
+          "selection of brand ambassadors",
+          "new brand ambassador",
+          "not recommending",
+          "more famous cricketer",
+          "choice of brand ambassadors",
+          "only known as youngsters",
+          "players selected can be better",
+          "virat kohli",
+          "rahul dravid",
+          "instead of these young"
+        ]
+      },
+      {
+        "net": "Negative / Critical",
+        "code": 402,
+        "label": "Association does not connect / makes no difference / not necessary",
+        "patterns": [
+          "doesn'?t connect",
+          "does ?n'?t really make a difference",
+          "not working",
+          "not required",
+          "means nothing",
+          "not necessary",
+          "doesn'?t make a lot of sense",
+          "nothing great",
+          "could not care less",
+          "don'?t ring a bell",
+          "i feel nothing",
+          "not so special",
+          "not able to comment",
+          "isn'?t necessarily something to be overly proud",
+          "focus more on the policy benefits",
+          "not much feel about this"
+        ]
+      },
+      {
+        "net": "Negative / Critical",
+        "code": 403,
+        "label": "Waste of money - spend on employees / customers / other media instead",
+        "patterns": [
+          "waste of money",
+          "absolute waste",
+          "money use the increase",
+          "instead give that money",
+          "spent same advertisement cost",
+          "digital marketing",
+          "csr activities"
+        ]
+      },
+      {
+        "net": "Negative / Critical",
+        "code": 404,
+        "label": "Not a cricket follower - cannot comment / no interest",
+        "patterns": [
+          "(do ?n'?t|dislike|not) (like|interested in|follow|watching|a fan of|into) cricket",
+          "not a fan of cricket",
+          "not interested in cricket",
+          "donot like cricket",
+          "i am indifferent",
+          "do not follow ipl",
+          "not watching criket",
+          "dont know much about cricket",
+          "not a big fan of cricket",
+          "i am not into cricket",
+          "not interested in cricket much",
+          "i'?m not into cricket",
+          "as i am part of the it team"
+        ]
+      },
+      {
+        "net": "Negative / Critical",
+        "code": 405,
+        "label": "Campaign execution needs improvement - more/clearer advertising",
+        "patterns": [
+          "not showing add",
+          "more action oriented",
+          "missing opportunity",
+          "not clear message",
+          "look funny",
+          "qualities should be part of the campaign",
+          "only in tv",
+          "repeat it",
+          "emotional touch",
+          "not appearing in all formats",
+          "more updates"
+        ]
+      },
+      {
+        "net": "Negative / Critical",
+        "code": 406,
+        "label": "Should support other / local sports & sportspersons",
+        "patterns": [
+          "other sports",
+          "local and aspiring sportsman",
+          "promote local"
+        ]
+      },
+      {
+        "net": "Negative / Critical",
+        "code": 407,
+        "label": "Employees not given any benefit / involvement (tickets, events)",
+        "patterns": [
+          "tickets",
+          "neither company has given that opportunity",
+          "want to join too"
+        ]
+      },
+      {
+        "net": "Neutral / Indifferent",
+        "code": 501,
+        "label": "Neutral / indifferent / just okay",
+        "patterns": [
+          "^neutral",
+          "^ok\\b",
+          "^okay",
+          "somewhat nice",
+          "it'?s okay",
+          "okay, that works",
+          "^fair$",
+          "hopefully good",
+          "^average$"
+        ]
+      },
+      {
+        "net": "Neutral / Indifferent",
+        "code": 502,
+        "label": "Unable to comment / insufficient information",
+        "patterns": [
+          "unable to (answer|comment)",
+          "cannot comment",
+          "can'?t say",
+          "roi data",
+          "no suggestions",
+          "don'?t know",
+          "dont know",
+          "no idea",
+          "not able to comment"
+        ]
+      }
+    ]
+  }
+}
